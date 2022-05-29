@@ -4,7 +4,7 @@
   docker_image:
     name: cd_projet1
     build: 
-     path: /var/lib/jenkins/workspace/devops
+     path: /var/lib/jenkins/workspace/pipelinecd
      pull: no
     source: build 
     state: present
