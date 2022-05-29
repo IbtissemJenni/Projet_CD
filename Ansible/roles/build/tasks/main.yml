@@ -1,0 +1,4 @@
+---
+# tasks file for build
+   - name: build app
+         shell: npm install && ng build --prod && chmod 777 -R /var/lib/jenkins/workspace/devops/
