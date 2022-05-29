@@ -3,7 +3,7 @@ pipeline {
      stages {
         stage('Pull') {
             steps {
-                checkout([$class: 'GitSCM', branches: [[name: '*/main']],
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']],
                         userRemoteConfigs: [[
                             credentialsId: 'github_credential', 
                             url: 'https://github.com/IbtissemJenni/Projet_CD.git']]])
