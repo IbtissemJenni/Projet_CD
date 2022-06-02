@@ -7,7 +7,7 @@
     password: "23405907Jenni"
 - name: tag and push to docker hub
   docker_image:
-    name: devops:latest
+    name: cd_projet1:latest
     repository: jenniibtissem/cd_projet1
     push: yes
     source: local
