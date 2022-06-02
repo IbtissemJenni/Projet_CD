@@ -2,12 +2,12 @@
 # tasks file for docker-registry
 - name: login into docker hub regitry
   docker_login: 
-    email: "ibtissem.jenni@esprit.tn"
-    username: "jenniibtissem"
+    email: "jenni.ibtissem23@gmail.com"
+    username: "jenni20"
     password: "23405907Jenni"
 - name: tag and push to docker hub
   docker_image:
     name: cd_projet1:latest
-    repository: jenniibtissem/cd_projet1
+    repository: jenni20/cd_projet1
     push: yes
     source: local
